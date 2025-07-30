@@ -1,0 +1,190 @@
+/* *{
+    margin:0;
+    padding: 0;
+    font-family: 'sans';
+    box-sizing: border-box;
+} */
+ body{
+     font-family: 'sans';
+     background-color: khaki;
+ }
+
+ .container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ }
+
+.clock{
+    width:400px;
+    height:400px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid;
+    color: black;
+    box-shadow:0 10px 15px #ededed;
+    background-color: b;
+
+}
+
+.mid-point{
+    width:10px;
+    height:10px;
+    position:absolute;
+    background-color: black;
+    border-radius: 50%;
+    top:193px;
+    left:200px
+}
+
+.hour{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left:175px;
+    top:70px;
+
+}
+
+.hour-1{
+    top:40px;
+    right:100px
+}
+
+.hour-2{
+    top:100px;
+    right:40px
+}
+
+.hour-3{
+    top:188px;
+    right:15px
+}
+
+.hour-4{
+    top:275px;
+    left:350px
+}
+
+.hour-5{
+    top:335px;
+    right:100px
+}
+
+.hour-6{
+    bottom:15px;
+    left:200px
+}
+
+.hour-7{
+    bottom:40px;
+    left:100px
+}
+
+.hour-8{
+    bottom:103px;
+   left:39px
+}
+
+
+.hour-9{
+    top:190px;
+    left:16px
+}
+
+
+.hour-10{
+    top:100px;
+    left:43px
+}
+
+
+.hour-11{
+    top:40px;
+    left:95px;
+}
+
+
+.hour-12{
+    top:15px;
+   left:200px
+}
+
+.minute-hand-wrapper{
+    width:300px;
+    height:300px;
+    /* background-color: blue; */
+    position: absolute;
+    border-radius: 50%;
+    /* top:50px; */
+}
+
+.minute-hand{
+    position:relative;
+}
+
+.minute-hand .hand{
+    width:3px;
+    background-color: black;
+    height:150px;
+    position:absolute;
+    right:143px
+}
+
+
+.minute-hand .arrow{
+    font-size: 30px;
+    font-weight:500;
+    transform: rotate(180deg);
+    position: absolute;
+    left:148.5px;
+    bottom:-24px;
+}
+
+.hour-hand-wrapper{
+    width:200px;
+    height:200px;
+    /* background-color: blue; */
+    position: absolute;
+    border-radius: 50%;
+    /* top:50px; */
+}
+
+.hour-hand{
+    position:relative;
+}
+
+.hour-hand .hand{
+    width:3px;
+    background-color: black;
+    height:100px;
+    position:absolute;
+    right:93px;
+    /* right:43px; */
+}
+
+
+.hour-hand .arrow{
+    font-size: 30px;
+    font-weight:500;
+    transform: rotate(180deg);
+    position: absolute;
+    left:98.5px;
+    bottom:-24px;
+}
+
+
+
+
+
+
